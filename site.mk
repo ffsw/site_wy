@@ -32,9 +32,9 @@ GLUON_SITE_PACKAGES := \
        gluon-tunneldigger-watchdog \
        gluon-migrate-vpn \
        iwinfo \
-       #ffws-reboot \
-       #ffws-chkgw \
-       #ffws_keyupl
+       ffws-reboot \
+       ffws-chkgw \
+       ffws_keyupl
        
 # support the USB stack
 USB_PACKAGES_BASIC := \
