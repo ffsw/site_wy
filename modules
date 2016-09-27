@@ -1,4 +1,4 @@
-GLUON_FEEDS='openwrt gluon routing luci ffrl'
+GLUON_FEEDS='openwrt gluon routing luci ffrl ffsw'
 
 OPENWRT_REPO=git://git.openwrt.org/15.05/openwrt.git
 OPENWRT_COMMIT=eadf19c0b43d2f75f196ea8d875a08c7c348530c
@@ -21,3 +21,5 @@ PACKAGES_LUCI_BRANCH=for-15.05
 PACKAGES_FFRL_REPO='https://github.com/ffrl/ffrl-packages.git'
 PACKAGES_FFRL_COMMIT=c6a6fd5ff2954495d8b6feae4094805d206917fc
 PACKAGES_FFRL_BRANCH=Branch_v2016.1.x
+
+PACKAGES_FFSW_REPO=https://github.com/ffsw/packages.git
