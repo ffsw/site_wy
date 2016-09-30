@@ -34,7 +34,7 @@ GLUON_SITE_PACKAGES := \
        iwinfo \
        ffws-reboot \
        ffws-chkgw \
-       ffws_keyupl
+       ffws-keyupl
        
 # support the USB stack
 USB_PACKAGES_BASIC := \
