@@ -29,7 +29,6 @@ GLUON_SITE_PACKAGES := \
         iptables \
         gluon-tunneldigger-watchdog \
         gluon-migrate-vpn \
-        gluon-txpower-fix \
         ffsw-reboot \
         ffsw-chkgw \
         ffsw-keyupl \
@@ -139,4 +138,4 @@ GLUON_REGION := eu
 GLUON_PRIORITY ?= 0
 
 # Languages to include
-GLUON_LANGS ?= en de fr
+GLUON_LANGS ?= en de
