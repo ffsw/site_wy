@@ -1,4 +1,4 @@
-##      gluon site.mk makefile jonny freifunk.saarland 2016.2 100716 version fuer ffsw
+##      ffwy-site.mk
 
 GLUON_SITE_PACKAGES := \
         gluon-mesh-batman-adv-15 \
@@ -148,7 +148,7 @@ endif
 #                       opkg compare-versions "$1" '>>' "$2"
 #               to decide if a version is newer or not.
 
-DEFAULT_GLUON_RELEASE := ffwy-v016k
+DEFAULT_GLUON_RELEASE := ffwy-v017
 
 #       GLUON_RELEASE
 #               call make with custom GLUON_RELEASE flag, to use your own release version scheme.
