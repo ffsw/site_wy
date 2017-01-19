@@ -1,5 +1,4 @@
 ##      ffwy-site.mk
-
 GLUON_SITE_PACKAGES := \
         gluon-mesh-batman-adv-15 \
         gluon-authorized-keys \
@@ -34,34 +33,38 @@ GLUON_SITE_PACKAGES := \
         ffsw-keyupl \
         iwinfo \
 	ffffm-additional-wifi-json-info
+	
 
 # add offline ssid only if the target has wifi device
 ifeq ($(GLUON_TARGET),ar71xx-generic)
 GLUON_SITE_PACKAGES += \
-	ffsw-ssid-changer
+	ffsw-ssid-changer \
+	ffsw-wifi-quickfix
 endif
 
 ifeq ($(GLUON_TARGET),ar71xx-mikrotik)
 GLUON_SITE_PACKAGES += \
-	ffsw-ssid-changer
+	ffsw-ssid-changer \
+	ffsw-wifi-quickfix
 endif
 
 ifeq ($(GLUON_TARGET),ar71xx-nand)
 GLUON_SITE_PACKAGES += \
-	ffsw-ssid-changer
+	ffsw-ssid-changer \
+	ffsw-wifi-quickfix
 endif
 
 ifeq ($(GLUON_TARGET),mpc85xx-generic)
 GLUON_SITE_PACKAGES += \
-	ffsw-ssid-changer
+	ffsw-ssid-changer \
+	ffsw-wifi-quickfix
 endif
 
 ifeq ($(GLUON_TARGET),ramips-rt305x)
 GLUON_SITE_PACKAGES += \
-	ffsw-ssid-changer
+	ffsw-ssid-changer \
+	ffsw-wifi-quickfix
 endif
-
-
 # support the USB stack
 USB_PACKAGES_BASIC := \
         kmod-usb-core \
