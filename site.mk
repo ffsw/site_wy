@@ -32,7 +32,6 @@ GLUON_SITE_PACKAGES := \
         ffsw-chkgw \
         ffsw-keyupl \
         iwinfo \
-	ffffm-additional-wifi-json-info \
 	ffsw-banner
 	
 
