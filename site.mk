@@ -28,7 +28,7 @@ GLUON_FEATURES := \
 GLUON_SITE_PACKAGES :=	gluon-config-mode-geo-location-osm \
 			gluon-authorized-keys \
 			gluon-web-private-wifi \
-			haveged ffsw-reboot \
+			ffsw-reboot \
 			ffsw-chkgw ffsw-keyupl \
 			iwinfo ffsw-banner \
 			iperf3 \
